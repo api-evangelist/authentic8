@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://authentic8.com/certifications/
+note: >-
+  Authentic8 publishes its security and compliance posture on its certifications
+  page. No public developer API / OpenAPI is available, so cross-cutting API
+  standards (oauth2, rfc9457, etc.) cannot be asserted; this file captures the
+  published organizational compliance program only.
+standards:
+- id: fedramp
+  conforms: true
+  evidence: FedRAMP-authorized service (authentic8.com/certifications/)
+- id: soc2
+  conforms: true
+  evidence: Independent SOC 2 assessment (security, availability, confidentiality)
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 certification
+- id: iso-27701
+  conforms: true
+  evidence: ISO/IEC 27701 certification
+- id: pci-dss
+  conforms: true
+  evidence: PCI Security Standards Council Participating Organization
+- id: hipaa
+  conforms: true
+  evidence: HIPAA-compliant service for covered entities
+- id: gdpr
+  conforms: true
+  evidence: European data protection (GDPR) compliance
+- id: dfars
+  conforms: true
+  evidence: DFARS compliance
+- id: cmmc
+  conforms: true
+  evidence: Cybersecurity Maturity Model Certification framework
+- id: csa-star
+  conforms: true
+  evidence: Cloud Security Alliance STAR registry participation
